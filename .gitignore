@@ -1,0 +1,13 @@
+# Large datasets
+dataset/twcs.csv
+dataset/labeled_tickets.csv
+
+# Trained models
+*.pkl
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
