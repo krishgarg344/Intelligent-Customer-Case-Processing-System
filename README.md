@@ -8,6 +8,7 @@ Currently working on the ticket classification module.
 
 ## Dataset
 
-Using the Twitter Customer Support dataset.
+Using the Twitter Customer Support dataset. 
+Link: https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter
 
 Right now only customer (inbound) messages are being used. Company replies and conversation thread information are ignored since they are not needed for the classification model.
