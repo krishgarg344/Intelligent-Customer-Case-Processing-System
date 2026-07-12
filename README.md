@@ -25,6 +25,9 @@ Right now only customer (inbound) messages are being used. Company replies and c
 - Built priority prediction pipeline
 - Generated priority labels for all tickets
 - Saved processed dataset containing both category and priority labels for the next modules
+- Implemented department assignment mapping logic based on predicted ticket categories
+- Added project dependencies in `requirements.txt`
+- Started designing the FastAPI backend
 
 ## Project Structure
 
@@ -32,12 +35,13 @@ Right now only customer (inbound) messages are being used. Company replies and c
 dataset/
 models/
 saved_models/
+department_assignment.py
 README.md
+requirements.txt
 ```
 
 ## Next
 
-- Department routing
 - Gemini response generation
 - FastAPI backend
 - API testing with Postman
