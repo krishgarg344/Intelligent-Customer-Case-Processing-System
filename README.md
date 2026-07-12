@@ -27,7 +27,10 @@ Right now only customer (inbound) messages are being used. Company replies and c
 - Saved processed dataset containing both category and priority labels for the next modules
 - Implemented department assignment mapping logic based on predicted ticket categories
 - Added project dependencies in `requirements.txt`
-- Started designing the FastAPI backend
+- Integrated Gemini API for AI-generated draft responses
+- Designed and implemented FastAPI endpoints for the complete prediction pipeline
+- Added project dependencies in `requirements.txt`
+- Currently testing the complete end-to-end API workflow
 
 ## Project Structure
 
@@ -36,6 +39,7 @@ dataset/
 models/
 saved_models/
 department_assignment.py
+main.py
 README.md
 requirements.txt
 ```
